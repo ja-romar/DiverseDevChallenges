@@ -9,7 +9,7 @@ def reverse_list(list): #create a function that receives the list
 
         start += 1 #adds one to the start element 
         end -= 1 #substract one to the end element
-    
+        #this allows to the while cycle continues advance  
     return list #returnt the list 
 
 input_list = [1,2,3,4,5]
