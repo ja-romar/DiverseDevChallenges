@@ -1,6 +1,6 @@
 //Create a countdown with a specific date.
 
-var countDownDate = new Date("Feb, 2024 00:00:00").getTime();
+var countDownDate = new Date("Feb 28, 2024 00:00:00").getTime();
 
 
 //Update the countdown every 1 second.
@@ -19,7 +19,7 @@ var x = setInterval(function() {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     //Display the result in the element id="countdown"
-    document.getElementById("countdown").innerHTML = days + "d" + hours + "h "
+    document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
     + minutes + "m " + seconds + "s ";
 
 
