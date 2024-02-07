@@ -13,4 +13,5 @@ def reverse_list(list): #create a function that receives the list
     return list #returnt the list 
 
 input_list = [1,2,3,4,5]
+input_list_2= [3,4,5,6,7]
 print(reverse_list(input_list))
